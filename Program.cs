@@ -15,7 +15,7 @@ namespace deliverable_1
             int passwordLength = userInput.Length;
 
             if (passwordLength >= min && passwordLength <= max && userInput.Contains("!") && userInput.Any(char.IsUpper)
-                && userInput.Any(char.IsLower) && userInput.Any(char.IsDigit))
+                && userInput.Any(char.IsLower))
             {
 
                 Console.WriteLine("Password Valid And Accepted.");
