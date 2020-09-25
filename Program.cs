@@ -18,7 +18,7 @@ namespace deliverable_1
                 && userInput.Any(char.IsLower))
             {
 
-                Console.WriteLine("Password Valid And Accepted.");
+                Console.WriteLine("Password valid and accepted.");
             }
             else
             {
